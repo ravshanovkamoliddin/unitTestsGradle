@@ -98,4 +98,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **License**: Loyihaning litsenziyasi haqida ma'lumot.
 
 Siz bu matnni o‘zgartirib, o‘zingizning loyihangizga moslashtirishingiz mumkin. Agar qo‘shimcha yordam kerak bo‘lsa, so‘rashingiz mumkin! 😊
-```https://www.linkedin.com/in/ravshanovkamoliddin/ ``` 
+https://www.linkedin.com/in/ravshanovkamoliddin/
