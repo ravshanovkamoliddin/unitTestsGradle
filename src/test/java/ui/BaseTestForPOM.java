@@ -13,15 +13,14 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.Map;
 
-public class BaseTestForPOM {
+class BaseTest {
     WebDriver driver;
 
     @BeforeEach
-    void setUP() {
+    void setup() {
         initDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-
     }
 
     @AfterEach
@@ -32,7 +31,6 @@ public class BaseTestForPOM {
     private void initDriver() {
         String remoteUrl = System.getenv("SELENIUM_REMOTE_URL");
         Allure.addAttachment("remoteUrl", remoteUrl);
-
         if (remoteUrl != null || !remoteUrl.isEmpty()) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");  // Add headless mode
