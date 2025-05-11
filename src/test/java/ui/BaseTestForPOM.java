@@ -25,13 +25,15 @@ public class BaseTestForPOM {
     }
 
     @AfterEach
-    void tearDown() { driver.quit(); }
+    void tearDown() {
+        driver.quit();
+    }
 
-    private void initDriver () {
+    private void initDriver() {
         String remoteUrl = System.getenv("SELENIUM_REMOTE_URL");
-        System.out.println("SELENIUM_REMOTE_URL = " + remoteUrl );
         Allure.addAttachment("remoteUrl", remoteUrl);
-        if (remoteUrl != null  || remoteUrl.isEmpty()) {
+
+        if (remoteUrl != null || !remoteUrl.isEmpty()) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");  // Add headless mode
             options.addArguments("--disable-gpu"); // Switch off GPU, because we don't need it in headless mode
