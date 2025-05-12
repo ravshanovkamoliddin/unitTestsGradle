@@ -9,19 +9,19 @@ public class LifeCycleJUnitTest {
     @BeforeEach
     void setUp() {
 
-        System.out.println("Перед каждым тестом");
+        System.out.println("The test is about to start");
     }
 
     @AfterEach
     void tearDown() {
 
-        System.out.println("После каждого теста");
+        System.out.println("The test is over");
     }
 
     @BeforeAll
     void setUpAll() {
 
-        System.out.println("Перед всеми тестами");
+        System.out.println("Before all the tests");
     }
 
     @AfterAll
