@@ -1,0 +1,78 @@
+Index: src/test/java/PlaywrightTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/PlaywrightTests.java b/src/test/java/PlaywrightTests.java
+new file mode 100644
+--- /dev/null	(date 1746343073215)
++++ b/src/test/java/PlaywrightTests.java	(date 1746343073215)
+@@ -0,0 +1,66 @@
++import com.microsoft.playwright.Browser;
++import com.microsoft.playwright.BrowserContext;
++import com.microsoft.playwright.BrowserType;
++import com.microsoft.playwright.ElementHandle;
++import com.microsoft.playwright.Locator;
++import com.microsoft.playwright.Page;
++import com.microsoft.playwright.Playwright;
++import com.microsoft.playwright.assertions.PlaywrightAssertions;
++import org.junit.jupiter.api.AfterAll;
++import org.junit.jupiter.api.AfterEach;
++import org.junit.jupiter.api.BeforeAll;
++import org.junit.jupiter.api.BeforeEach;
++import org.junit.jupiter.api.DisplayName;
++import org.junit.jupiter.api.Tag;
++import org.junit.jupiter.api.Test;
++import pages.playwright.HomePage;
++import pages.playwright.WebFormPage;
++import steps.AllureSteps;
++
++public class PlaywrightTests {
++
++    AllureSteps allureSteps = new AllureSteps();
++
++    static Playwright playwright;
++    static Browser browser;
++
++    BrowserContext context;
++    Page page;
++
++    @BeforeAll
++    static void launchBrowser() {
++        playwright = Playwright.create();
++        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
++
++    }
++
++    @AfterAll
++    void createContextAndPage() {
++        context = browser.newContext();
++        page = context,newPage();
++    }
++
++    @AfterEach
++    void closeContext() {
++        context.close();
++    }
++
++    @Test
++    void successfulLoginTest() {
++        page.navigate("https://bonigarcia.dev/selenium-webdriver-java/login-form.html");
++
++        Locator subTitle = page.locator(".display-6");
++        Locator loginInput = page.locator("#username");
++        Locator passwordInput = page.locator("#password");
++        Locator submitButton = page.locator("xpath=//button[@type='submit']");
++
++        loginInput.fill("user");
++        passwordInput.fiil("user");
++        String textBeforeClick = subTitle.innerText();
++        submitButton.click();
++
++        assertThat(textBeforeClick).isEqualTo("Login form");
++        Locator successMessege = page.locator("#success");
++        assertThat(successMessage.isVisible()).isTrue();
++    }
++}
+diff --git a/src/test/resources/jsonSchema/petSchema.json b/src/test/resources/jsonSchema/petSchema.json
+new file mode 100644

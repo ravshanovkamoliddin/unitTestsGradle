@@ -53,15 +53,15 @@ dependencies {
 }
 
 
-tasks.register('installPlaywright') {
-    doLast {
-        javaexec {
-            mainClass = 'com.microsoft.playwright.CLI'
-            classpath = sourceSets.test.runtimeClasspath
-            args = ['install']
-        }
-    }
-}
+//tasks.register('installPlaywright') {
+//    doLast {
+//        javaexec {
+//            mainClass = 'com.microsoft.playwright.CLI'
+//            classpath = sourceSets.test.runtimeClasspath
+//            args = ['install']
+//        }
+//    }
+//}
 
 test {
     useJUnitPlatform()

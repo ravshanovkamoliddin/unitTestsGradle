@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17801fb0-613b-4947-85a0-b690b6cb23c5" name="Changes" comment="upgrade gradle">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/BaseTestForPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/BaseTestForPOM.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="unitTestsGradle" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="unitTestsGradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="unitTestsGradle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="unitTestsGradle" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ravshanovkamoliddin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ravshanovkamoliddin/unitTestsGradle.git&quot;,
+    &quot;accountId&quot;: &quot;1394e32b-9472-4c80-bd85-c1ff8603c811&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uvcvrWjffRABbh3LUBnzJJqExz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.AdditionalTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AdditionalTests.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ExtensionJUnitTest.JunitTestWithLifecycleExtend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ExtensionJUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FractionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FractionTest.simpleFraction.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LifeCycleJUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LifeCycleJUnitTest.second.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParallelJUnitTest.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParallelJUnitTest.secondTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParametrizedTests.csvTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PlaywrightLoginPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PlaywrightLoginPageTest.invalidCredentialsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PlaywrightLoginPageTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumActionTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumActionTests.fileUploadTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumBasicTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumCookiesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumJSExecuteTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumShadowDomTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SeleniumWebStorageTests.testWebStorage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleJUnitTests.AssertAllSeparate.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleJUnitTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleJUnitTests.timeoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.unitTestsGradle [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.unitTestsGradle [test].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#6 on ravshanovkamoliddin-patch-1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kamoliddin/IdeaProjects/unitTestsGradle/src/main/java/uz/kamoliddin/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java.util.concurrent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamoliddin\IdeaProjects\unitTestsGradle\src\main\java" />
+      <recent name="C:\Users\kamoliddin\IdeaProjects\unitTestsGradle\src\test\resources\jsonSchema" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PlaywrightLoginPageTest">
+    <configuration name="PlaywrightLoginPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;PlaywrightLoginPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlaywrightLoginPageTest.invalidCredentialsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;PlaywrightLoginPageTest.invalidCredentialsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlaywrightLoginPageTest.loginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;PlaywrightLoginPageTest.loginTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeleniumActionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SeleniumActionTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeleniumShadowDomTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SeleniumShadowDomTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PlaywrightLoginPageTest" />
+        <item itemvalue="Gradle.PlaywrightLoginPageTest.invalidCredentialsTest" />
+        <item itemvalue="Gradle.PlaywrightLoginPageTest.loginTest" />
+        <item itemvalue="Gradle.SeleniumActionTests" />
+        <item itemvalue="Gradle.SeleniumShadowDomTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17801fb0-613b-4947-85a0-b690b6cb23c5" name="Changes" comment="" />
+      <created>1743132722622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743132722622</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Test passed">
+      <option name="closed" value="true" />
+      <created>1743557971022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743557971024</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test passed">
+      <option name="closed" value="true" />
+      <created>1746940579347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746940579347</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add gradlew">
+      <option name="closed" value="true" />
+      <created>1746941128917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746941128917</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add remote selenium">
+      <option name="closed" value="true" />
+      <created>1746943614485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746943614485</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1746944174791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746944174791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1746944414820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746944414820</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1746944770529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746944770529</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1746944877518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746944877518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1746944914348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746944914348</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1746945769373</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746945769373</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix system properties">
+      <option name="closed" value="true" />
+      <created>1747066194543</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747066194543</updated>
+    </task>
+    <task id="LOCAL-00012" summary="upgrade gradle">
+      <option name="closed" value="true" />
+      <created>1747801439317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747801439317</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test passed" />
+    <MESSAGE value="Add gradlew" />
+    <MESSAGE value="Add remote selenium" />
+    <MESSAGE value="Fix system properties" />
+    <MESSAGE value="upgrade gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade gradle" />
+  </component>
+</project>
