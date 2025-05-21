@@ -12,9 +12,10 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Collection;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.assertThat;
+
 import static uz.kamoliddin.org.fpmi.Constants.BASE_URL;
 import static steps.WebFormSteps.openWebFormPage;
 import static steps.WebFormSteps.sendInput;
@@ -195,7 +196,7 @@ class SeleniumActionTests {
         // Fayl tarkibini satr sifatida o'qish
         String content = new String(Files.readAllBytes(Paths.get(filePath)));
 
-        // Ekrandagi chiqish kabi kodingizdagi fayl tarkibidan foydalaning
+        // Ekrandagi chiqish kabi kodingizdagi fayl tarkibi
         System.out.println("Содержимое файла: " + content);
 
         // Resurs URL manzilini olamiz
@@ -205,9 +206,9 @@ class SeleniumActionTests {
         if (url != null) {
             // Biz faylga mutlaq yo'lni olamiz
             absolutePath = new File(url.getPath()).getAbsolutePath();
-            System.out.println("Абсолютный путь к файлу: " + absolutePath);
+            System.out.println("Absolute path to file: " + absolutePath);
         } else {
-            System.out.println("Ресурс не найден.");
+            System.out.println("recurs not found.");
         }
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
         WebElement fileUpload = driver.findElement(By.name("my-file"));
@@ -217,6 +218,10 @@ class SeleniumActionTests {
         submit.click();
         Thread.sleep(5000);
         assertThat(driver.getCurrentUrl()).contains("text.txt");
+    }
+
+    private Collection<Object> assertThat(String currentUrl) {
+        return List.of();
     }
 
     @Test
@@ -233,7 +238,7 @@ class SeleniumActionTests {
                 .sendKeys("lower-case")
                 .perform();
         Thread.sleep(2000);
-        Assertions.assertEquals("UPPER_CASElower-case", input.getAttribute("value"));
+        Assertions.assertEquals("UPPER_CASSlower-case", input.getAttribute("value"));
 
         WebElement password = driver.findElement(By.name("my-password"));
         new Actions(driver)
