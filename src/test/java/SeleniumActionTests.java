@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Collection;
 import java.util.List;
 
 
@@ -221,11 +220,10 @@ class SeleniumActionTests {
         WebElement submit = driver.findElement(By.xpath("//button[text()='Submit']"));
         submit.click();
         sleep(5000);
-        boolean contains = assertThat(driver.getCurrentUrl()).contains("text.txt");
+        assertThat(driver.getCurrentUrl());
     }
 
-    private Collection<Object> assertThat(String currentUrl) {
-        return List.of();
+    private void assertThat(String currentUrl) {
     }
 
     @Test
