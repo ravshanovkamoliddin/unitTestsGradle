@@ -14,7 +14,7 @@ public class PlaywrightLoginPage {
     private final Locator loginSuccessNotification;
 
     public PlaywrightLoginPage(Page page) {
-        this.page = page;
+        PlaywrightLoginPage.page = page;
         this.usernameInput = page.locator("//input[@id=\"username\"]");
         this.passwordInput = page.locator("//input[@id=\"password\"]");
         this.loginButton = page.locator("//button[@type=\"submit\"]");

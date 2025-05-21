@@ -6,6 +6,7 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.Objects;
 import java.util.Set;
 
 
@@ -33,6 +34,7 @@ class SeleniumCookiesTests {
         Set<Cookie> cookies = options.getCookies();
         assertThat(cookies).hasSize(2);
         Cookie username = options.getCookieNamed("username");
+        assert username != null;
         assertThat(username.getValue()).isEqualTo("John Doe");
         assertThat(username.getPath()).isEqualTo("/");
 
@@ -40,7 +42,7 @@ class SeleniumCookiesTests {
 
         Cookie newCookie = new Cookie("new-cookie-key", "new-cookie-value");
         options.addCookie(newCookie);
-        String readValue = options.getCookieNamed(newCookie.getName())
+        String readValue = Objects.requireNonNull(options.getCookieNamed(newCookie.getName()))
                 .getValue();
         assertThat(newCookie.getValue()).isEqualTo(readValue);
 
