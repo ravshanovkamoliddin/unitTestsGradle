@@ -22,6 +22,8 @@ import static steps.WebFormSteps.sendInput;
 
 class SeleniumActionTests {
     WebDriver driver;
+    private String currentUrl;
+
     @BeforeEach
     void start() {
         driver = new ChromeDriver();
@@ -224,6 +226,7 @@ class SeleniumActionTests {
     }
 
     private void assertThat(String currentUrl) {
+        this.currentUrl = currentUrl;
     }
 
     @Test
