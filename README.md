@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-### **Tushuntirish:**
+### **Understanding:**
 
 - **Project Overview**: Loyihaning umumiy tavsifi.
 - **Technologies Used**: Loyihada ishlatilgan texnologiyalar va asboblar.
