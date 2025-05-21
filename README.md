@@ -87,6 +87,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
+UZ
+
 ### **Understanding:**
 
 - **Project Overview**: Loyihaning umumiy tavsifi.
