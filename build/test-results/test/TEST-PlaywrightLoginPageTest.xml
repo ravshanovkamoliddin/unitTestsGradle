@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlaywrightLoginPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-21T01:16:20" hostname="LAPTOP-IBT5RR7M" time="4.377">
+  <properties/>
+  <testcase name="loginTest()" classname="PlaywrightLoginPageTest" time="2.621"/>
+  <testcase name="invalidCredentialsTest()" classname="PlaywrightLoginPageTest" time="1.668"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
